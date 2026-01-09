@@ -12,8 +12,8 @@ CACHE_PATH         = os.path.expanduser("~/.cache/spotipy_cache")
 TAGS_JSON          = os.path.expanduser("~/vinyl-box/tags.json")
 
 load_dotenv(os.path.expanduser("~/vinyl-box/.env"))
-# DEVICE_NAME = os.getenv("DEVICE_NAME", "VinylBox")
-DEVICE_NAME = os.getenv("DEVICE_NAME", "raspotify (raspberrypi)")
+DEVICE_NAME = os.getenv("DEVICE_NAME", "Vinyl Box")
+# DEVICE_NAME = os.getenv("DEVICE_NAME", "raspotify (raspberrypi)")
 
 sp = Spotify(auth_manager=SpotifyOAuth(
     client_id=os.environ["SPOTIFY_CLIENT_ID"],
