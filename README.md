@@ -11,7 +11,7 @@ A Raspberry Pi–based electronic record player that uses NFC tags to control Sp
 
 Audio plays through a connected speaker, while playback is controlled via Spotify Connect
 
-![Vinyl Box](./vinyl-box.jpeg)
+![Vinyl Box](./vinyl-box.jpg)
 
 This is how my finished product came out! I stained a wooden box that I bought off Amazon. I drilled two holes on the side for the aux and power cable. The Raspberry Pi and NFC reader are housed inside the box using velcro strips.
 
